@@ -14,7 +14,7 @@ By default the sample application has disabled SSL certificate checking when con
 
 The following package must be installed prior to running the sample application:
 
-Python 2.7 and 3.4+
+Python 3.4+
 
 ## Setup
 

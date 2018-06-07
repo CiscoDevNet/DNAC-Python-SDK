@@ -66,9 +66,10 @@ def main():
                                                                                               args.ipaddress))
     #Set up configuration
     config = Configuration()
-    config.host = args.ipaddress
+    config.host = "https://" + args.ipaddress
     config.username = args.uname
     config.password = dnacPwd
+    # Set the following to True if you want to enable SSL verification
     config.verify_ssl = False
     config.debug = False
 
